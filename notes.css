@@ -1,0 +1,68 @@
+/* This is a comment in CSS */
+
+/* Cascading Style Sheets  */
+
+/* External Style Sheets should be used most of the time:
+<link rel="stylesheet" type="text/css" href="style.css">
+*/
+
+/* Where to place link on HTML page:
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    >>>>>HERE!!!!!<<<<<
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>
+*/
+
+
+/* ALWAYS start from top & work to bottom when styling
+https://www.youtube.com/watch?v=PmmQjLqJQlY
+*/
+
+
+/* CSS Syntax rules formed using a list of properties which we give values to. Those properties apply to specific HTML Elements which we target using selectors. Elements used to find HTML Elements based on tag name, id, class, attribute etc. */
+
+/* ENTIRE HTML */
+* {
+    background: aliceblue;
+    font-size: 12px;
+}
+/* * {property: value;} */
+
+/* ELEMENT */
+h1 {
+    color: red;
+    font-size: 12px;
+}
+/* elementtag {property: value;} */
+
+/* ID */
+#aboutme {
+    color: blue;
+    font-size: 20px;
+}
+/* #idname {property: value;} */
+
+/* CLASS */
+.container {
+    background-color: firebrick;
+}
+/* .classname {property: value;] */
+
+/* GROUP */
+h1, h2, p {
+    color: violet;
+}
+
+
+/* Box Model: Design & Layout */
+/* Content = content of box, where text & images appear
+Padding = Clears an area around content (transparent)
+Border = borders padding & content 
+Margin = Clears an area outside border. (transparent) */
